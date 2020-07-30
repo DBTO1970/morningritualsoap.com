@@ -1,0 +1,98 @@
+/* Global */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+
+body {
+  font: 15px/1.5 Arial, Helvetica, sans-serif;
+  padding: 5px;
+  margin: 5px;
+  background-color: #ffffff;
+
+}
+
+#banner {
+  width: 100%;
+  padding-top: 100px;
+  padding-bottom: 5px;
+  padding-left: 5px;
+  background-image: url("../img/soap_header.jpg");
+  background-size: 100% contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment:fixed;
+  color: #ffffff;
+  text-shadow: 1px .5px .25px gray;
+
+}
+
+nav {
+  position: fixed;
+  top: 0;
+  background-color: gray;
+  width: 100%;
+  color: white;
+}
+nav ul {
+  display: flex;
+  flex-direction: row;
+  margin: 2px;
+  padding: 2px;
+  list-style-type: none;
+  background-color: gray;
+  color: white;
+}
+
+nav ul li {
+  color: white;
+}
+nav ul li a {
+  margin: 2px;
+  padding: 2px;
+  text-decoration: none;
+  color: white;
+  }
+
+li a:hover {
+  background-color: gray;
+  color: black;
+}
+
+li a:active {
+  background-color: gray;
+  color: white;
+}
+
+li a:visited {
+  color: black;
+}
+
+a:visited {
+  color: black;
+}
+div {
+  width: 90%;
+  padding: 5%;
+  border: 2px solid #D3D3D3;
+  margin: .5em auto;
+}
+
+.contact {
+  text-align: center;
+}
+.class {
+  margin: auto;
+}
+
+footer {
+  font-size: .5em;
+  color: #858585;
+  text-align: center;
+}
+.credit {
+  font-size: .25em;
+}
