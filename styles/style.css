@@ -7,11 +7,12 @@
 }
 
 html  {
+ 
+}
+body {
   max-width: 4000px;
   min-width: 600px;
   position: absolute;
-}
-body {
   font: 15px/1.5 Arial, Helvetica, sans-serif;
   padding: 5px;
   margin: 5px;
