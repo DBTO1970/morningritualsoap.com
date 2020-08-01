@@ -2,106 +2,39 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
-
+  font-family: 'Petrona', serif;
+  font-family: 'Roboto', sans-serif;
 }
 
 html  {
  
 }
-body {
-  max-width: 4000px;
-  min-width: 600px;
-  position: absolute;
-  font: 15px/1.5 Arial, Helvetica, sans-serif;
-  padding: 5px;
-  margin: 5px;
-  background-color: #ffffff;
-  width: 100%;
-  
 
-}
 
-header {
-  max-width: 98%;
-  
-  padding-top: 100px;
-  padding-bottom: 5px;
-  padding-left: 5px;
+/* Need Nav formating and event listeners */
+
+/* Header Format */
+header  {
   background-image: url("../img/soap_header.jpg");
-  background-size: 98%;
+  background-size: 100%;
   background-repeat: no-repeat;
   background-position: center;
-  background-attachment:fixed;
-  color: #ffffff;
+  color: antiquewhite;
   text-shadow: .5px .25px gray;
-
-}
-
-#title  {
-  background-color: #6f4e37;
-  max-width: %;
-  
-}
-
-nav {
-  position: sticky;
   top: 0;
-  background-color:#6f4e37;
-  width: 100%;
-  color: white;
-}
-nav ul {
-  display: flex;
-  flex-direction: row;
-  margin: 2px;
-  padding: 2px;
-  list-style-type: none;
-  background-color: #6f4e37;
-  color: white;
+  position: relative;
 }
 
-nav ul li {
-  color: white;
+/* #title formating and js file */
+ 
+.gallery  {
+  background-image: url(../img/soap_header.jpg);
+  background-size: 100%;
 }
-nav ul li a {
-  margin: 2px;
-  padding: 2px;
-  text-decoration: none;
-  color: white;
-  }
+#title {
+   background-color: rgb(143, 77, 7, .85);
+   background-size: 100%;
+   position: fixed;
+   top: 0;
+ }
 
-li a:hover {
-  background-color: gray;
-  color: black;
-}
-
-li a:active {
-  background-color: gray;
-  color: white;
-}
-
-li a:visited {
-  color: black;
-}
-
-a:visited {
-  color: black;
-}
-
-
-.contact {
-  text-align: center;
-}
-.class {
-  margin: auto;
-}
-
-footer {
-  font-size: .5em;
-  color: #858585;
-  text-align: center;
-}
-.credit {
-  font-size: .25em;
-}
