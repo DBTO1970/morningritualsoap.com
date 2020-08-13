@@ -14,29 +14,29 @@ html  {
 body {
   max-width: 4000px;
   min-width: 600px;
-  position: absolute;
   font: 15px/1.5;
-  padding: 5px;
-  margin: 5px;
   background-color: #ffffff;
   width: 100%;
-  
+  display: inline-block;
 
 }
 
 header {
-  max-width: 98%;
-  
-  padding-top: 100px;
-  background-image: url("../img/soap_header.jpg");
-  background-size: 98%;
+  width: 98%;
+  background-image: url(../img/01855930d6c988a97572616b93d08f31253ba8a72d.jpg);
+  padding: 100px 0px 20px 10px;
+  background-size: 100%;
   background-repeat: no-repeat;
   background-position: center;
-  background-attachment:fixed;
   color: #ffffff;
   text-shadow: .5px .25px gray;
 
 }
+
+main  {
+  max-width: 100%;
+}
+
 h1, h2, h3, h4, h5, h5  {
   font-family: 'Roboto' , sans-serif;
 }
@@ -96,7 +96,17 @@ a:visited {
   color: black;
 }
 
+#contactForm {
+  background-image: url(../img/01967ceb99b1299b383c1dabe4acef6de958c9d57e.jpg);
+  width: auto;
+  
+}
 
+main img  {
+  width: 300px;
+  height: auto;
+  border: 2px solid brown;
+}
 .contact {
   text-align: center;
 }
@@ -105,9 +115,14 @@ a:visited {
 }
 
 footer {
-  font-size: .5em;
-  color: #858585;
+  color: #cfcfcf;
   text-align: center;
+  background-image: url(../img/IMG_0004.JPG);
+  height: 100px;
+  padding-top: 20px;
+  font-weight: 900;
+  max-width: 98%;
+  
 }
 .credit {
   font-size: .25em;
