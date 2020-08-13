@@ -100,12 +100,14 @@ a:visited {
   background-image: url(../img/01967ceb99b1299b383c1dabe4acef6de958c9d57e.jpg);
   width: auto;
   
+  
 }
 
 main img  {
   width: 300px;
-  height: auto;
+  height: 300px;
   border: 2px solid brown;
+  border-radius: 50%;
 }
 .contact {
   text-align: center;
